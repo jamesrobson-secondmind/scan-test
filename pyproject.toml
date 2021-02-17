@@ -3,6 +3,7 @@ name = "scan-test"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
+packages = [{ include = "scan-test"}]
 
 [tool.poetry.dependencies]
 python = "^3.6"
