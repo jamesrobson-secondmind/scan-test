@@ -48,8 +48,8 @@ jobs:
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
-    #- name: Autobuild
-    #  uses: github/codeql-action/autobuild@v1
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v1
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 https://git.io/JvXDl
@@ -57,14 +57,14 @@ jobs:
     # ✏️ If the Autobuild fails above, remove it and uncomment the following three lines
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.7'
-    - run: |
-        pip install poetry
-        poetry install
-        echo "CODEQL_PYTHON=.venv/bin/python" >> $GITHUB_ENV
+    #- name: Set up Python
+    #  uses: actions/setup-python@v2
+    #  with:
+    #    python-version: '3.7'
+    #- run: |
+    #    pip install poetry
+    #    poetry install
+    #    echo "CODEQL_PYTHON=.venv/bin/python" >> $GITHUB_ENV
     #   make bootstrap
     #   make release
 
