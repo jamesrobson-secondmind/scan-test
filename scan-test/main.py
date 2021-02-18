@@ -1,6 +1,7 @@
 i = "hi"
 i = "multiple definition"
 j = "first"
+looks_like_a_pw = "Eemu0ahvaYaefe3iCiNg"
 
 
 def problem():
