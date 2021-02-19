@@ -1,3 +1,5 @@
+import sys
+
 i = "hi"
 i = "multiple definition"
 j = "first"
@@ -10,7 +12,7 @@ def problem():
     x = 40
     y = exec("x + 2")
     print(i, j, y, z)
-    if looks_like_a_pw == "ahcohphohbaezox3Xeto":
+    if sys.argv[1] == looks_like_a_passwdw:
         print("passwd accepted")
 
 
