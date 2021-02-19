@@ -9,7 +9,7 @@ def problem():
     z = "new line"
     x = 40
     y = exec("x + 2")
-    print(i, j, y)
+    print(i, j, y, z)
     if looks_like_a_pw == "ahcohphohbaezox3Xeto":
         print("passwd accepted")
 
