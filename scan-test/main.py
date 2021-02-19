@@ -6,6 +6,7 @@ looks_like_a_passwd = "Eemu0ahvaYaefe3iCiNg"
 
 def problem():
     j = "second"
+    z = "new line"
     x = 40
     y = exec("x + 2")
     print(i, j, y)
