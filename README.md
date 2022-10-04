@@ -1,2 +1,2 @@
 # scan-test
-test branch-protection
+test branch-protection2
